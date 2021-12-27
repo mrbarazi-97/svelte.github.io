@@ -1,0 +1,79 @@
+{
+  ".svelte-kit/build/runtime/internal/start.js": {
+    "file": "start-b50b22d2.js",
+    "src": ".svelte-kit/build/runtime/internal/start.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-f784ef24.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/build/components/error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/pokemon/[id].svelte",
+      "src/routes/about.svelte"
+    ],
+    "css": [
+      "assets/start-8077b9bf.css"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-47caacb6.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-f784ef24.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-dd12eab1.css"
+    ]
+  },
+  ".svelte-kit/build/components/error.svelte": {
+    "file": "error.svelte-921dc929.js",
+    "src": ".svelte-kit/build/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-f784ef24.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-05b3a926.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-f784ef24.js",
+      "_pokestore-4ef6be91.js"
+    ]
+  },
+  "src/routes/pokemon/[id].svelte": {
+    "file": "pages/pokemon/[id].svelte-52373ab6.js",
+    "src": "src/routes/pokemon/[id].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-f784ef24.js",
+      "_pokestore-4ef6be91.js"
+    ]
+  },
+  "src/routes/about.svelte": {
+    "file": "pages/about.svelte-61218b38.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-f784ef24.js"
+    ]
+  },
+  "_vendor-f784ef24.js": {
+    "file": "chunks/vendor-f784ef24.js"
+  },
+  "_pokestore-4ef6be91.js": {
+    "file": "chunks/pokestore-4ef6be91.js",
+    "imports": [
+      "_vendor-f784ef24.js"
+    ]
+  }
+}
